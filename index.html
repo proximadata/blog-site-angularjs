@@ -76,7 +76,7 @@
                     <div ng-show="field.name != 'Title'" bind-html-compile="item[field.name].view" title="{{field.name}}"
                     ng-class="{'image-left': (field.name=='Cover image' && $parent.$index%2==0), 
                         'image-right': (field.name=='Cover image' && $parent.$index%2==1)}"></div>
-                    <a ng-show="field.name == 'Title'" href="post/index.html?id={{item._id}}">
+                    <a ng-show="field.name == 'Title'" href="post/?id={{item._id}}">
                         {{item[field.name].value}}
                     </a>
                 </div>
