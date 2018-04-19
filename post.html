@@ -11,7 +11,7 @@
     <link rel="icon" type="image/x-icon" href="public/images/favicon.ico" />
     <base href = "">
 
-    <title>Your brand name</title>
+    <title>My blog post</title>
 
     <!-- Styles -->
     <link href="public/styles/lib//bootstrap.min.css" rel="stylesheet">
@@ -68,7 +68,8 @@
 
         <!-- Remove code from here and insert your own -->
         <script src="https://www.proximadata.io/userapi/applogic/5ad7aec5f1237f00145aed4e/type/angularjs/user/5a7b6f7fd35c400014ee0e86/code/"></script>
-        <div id="proxima-data-app-5ad7aec5f1237f00145aed4e-element" ng-controller="itemData" class="proxima-data-container-5ad7aec5f1237f00145aed4e">
+        <div id="proxima-data-app-5ad7aec5f1237f00145aed4e-element" ng-controller="itemData" 
+            class="proxima-data-container-5ad7aec5f1237f00145aed4e container">
             <div ng-show="dataLoading" style="width: 100%; height: 30px; text-align: center;"><img src="https://www.proximadata.io/public/images/loader.gif" style="height: 30px;"/></div>
             <div ng-repeat="field in fields" class="block-item {{generateClassName(field.name)}}" bind-html-compile="item[field.name].view" title="{{field.name}}"></div>
             <!--  <div title="Cover image" class="block-item {{generateClassName('Cover image')}}" bind-html-compile="item['Cover image'].view"></div>
