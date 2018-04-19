@@ -1,5 +1,10 @@
-# table-site-angularjs
-This is the template to create a simple website with data organized as table with handling data using AngularJS.
+# blog-site-angularjs
+This is the template to create a simple website with data organized as a blog. You can click on the title 
+of posts and it will be opened as a new page. No any server requires.
+Features:
+* Load on demand (depend on the type set up in the App Logic)
+* Read more customizable button
+* Requires only 2 pages: for list of posts, and for a separate post.
 
 
 ## Getting Started
@@ -15,7 +20,9 @@ Clone or download all files to your computer. Then, from any file explorer, clic
 * [jQuery UI 1.12.1](https://jqueryui.com/) - jQuery UI is a curated set of user interface interactions, effects, widgets, and themes built on top of the jQuery JavaScript Library
 * [momentjs](http:/momentjs.com/) - Parse, validate, manipulate, and display dates and times in JavaScript
 * [fontawesome](https://fontawesome.com/) - Get vector icons and social logos on your website
- 
+
+## Demo
+[Github page](https://proximadata.github.io/blog-site-angularjs/) 
 
 ## Authors
 
